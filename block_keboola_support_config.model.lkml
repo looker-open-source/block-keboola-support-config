@@ -39,7 +39,7 @@
 # other constants used by this block (Keboola will automatically create a connection
 # with this name
 
-include: "/views/**/*.view"
+include: "*.view"
 
 explore: company_config {
   extends: [company_core]
